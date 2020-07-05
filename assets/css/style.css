@@ -49,6 +49,10 @@ h3 {
   margin-left: 0.5rem;
 }
 
+h2 {
+  margin-left: 0.8rem;
+}
+
 .header {
     overflow: hidden;
     background-color: #ffffff;
@@ -133,6 +137,43 @@ h3 {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .flex-container > div {
+
+    width: auto;
+    margin: auto  ;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 5rem;
+
+  }
+
+  div.fotoPortafolio {
+    margin: 1rem;
+    margin-top: 0.5rem;
+    float: left;
+    width: 30%;
+  }
+  
+
+  div.fotoPortafolio img {
+    width: 50%;
+    margin: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    height: auto;
+  }
+  
+  div.desc {
+    font-size: medium;
+    text-align: center;
+    line-height: 30px;
   }
 
   @media screen and (max-width: 500px) {
